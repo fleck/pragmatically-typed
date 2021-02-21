@@ -16,12 +16,7 @@ declare global {
         ? string
         : T extends number
         ? number
-        : T extends boolean
-        ? boolean
-        : T extends Record<string, unknown>
-        ? Record<string, unknown>
-        : // tslint:disable-next-line:ban-types
-          Function
+        : T
     >(
       searchElement: R | undefined,
       fromIndex?: number
