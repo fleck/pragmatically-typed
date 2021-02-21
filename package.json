@@ -1,0 +1,28 @@
+{
+  "name": "pragmatically-typed",
+  "version": "1.0.0",
+  "description": "Opinionated type signatures to help solve common problems in TypeScript.",
+  "main": "index.js",
+  "author": "Jonathan Fleckenstein",
+  "license": "MIT",
+  "scripts": {
+    "compile-scripts": "tsc -p scripts",
+    "not-needed": "node scripts/not-needed.js",
+    "update-codeowners": "node scripts/update-codeowners.js",
+    "test-all": "node node_modules/@definitelytyped/dtslint-runner/dist/index.js --path .",
+    "test": "dtslint packages",
+    "lint": "dtslint types",
+    "prettier": "prettier"
+  },
+  "devDependencies": {
+    "@definitelytyped/definitions-parser": "latest",
+    "@definitelytyped/dtslint-runner": "latest",
+    "@definitelytyped/utils": "latest",
+    "danger": "^10.1.1",
+    "dtslint": "latest",
+    "prettier": "^2.1.1",
+    "remark-cli": "^9.0.0",
+    "remark-validate-links": "^10.0.2",
+    "typescript": "next"
+  }
+}
