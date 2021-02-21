@@ -1,8 +1,7 @@
 {
   "name": "pragmatically-typed",
   "version": "1.0.0",
-  "description": "Opinionated type signatures to help solve common problems in TypeScript.",
-  "main": "index.js",
+  "description": "Opinionated type signatures and config to help solve common problems in TypeScript.",
   "author": "Jonathan Fleckenstein",
   "license": "MIT",
   "scripts": {
@@ -11,7 +10,7 @@
     "update-codeowners": "node scripts/update-codeowners.js",
     "test-all": "node node_modules/@definitelytyped/dtslint-runner/dist/index.js --path .",
     "test": "dtslint packages",
-    "lint": "dtslint types",
+    "lint": "dtslint packages",
     "prettier": "prettier"
   },
   "devDependencies": {
