@@ -1,0 +1,13 @@
+{
+  "name": "@pragmatically-typed/array.includes",
+  "version": "1.0.0",
+  "description": "add type predicate to read only array.includes",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/fleck/pragmatically-typed.git",
+      "directory": "packages/array.includes"
+  },
+  "typeScriptVersion": "3.9"
+}
