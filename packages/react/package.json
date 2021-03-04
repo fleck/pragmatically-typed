@@ -12,5 +12,8 @@
   "typeScriptVersion": "3.9",
   "dependencies": {
     "@types/react": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/fleck/pragmatically-typed/issues"
   }
 }
