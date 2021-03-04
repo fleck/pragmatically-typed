@@ -1,0 +1,16 @@
+{
+  "name": "@pragmatically-typed/react",
+  "version": "1.0.0",
+  "description": "return readonly from useState",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fleck/pragmatically-typed.git",
+    "directory": "packages/react"
+  },
+  "typeScriptVersion": "3.9",
+  "dependencies": {
+    "@types/react": "*"
+  }
+}
