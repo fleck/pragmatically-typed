@@ -1,1 +1,0 @@
-Helpful additions to TypeScript to keep your codebase bug free.
