@@ -1,6 +1,6 @@
 {
   "name": "@pragmatically-typed/react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "return readonly from useState",
   "license": "MIT",
   "types": "index.d.ts",
