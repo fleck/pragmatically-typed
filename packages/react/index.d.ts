@@ -3,9 +3,9 @@
 import type { Dispatch, SetStateAction } from "react";
 
 type ReadonlyMapIncluded<T> = T extends Map<unknown, unknown>
-  ? keyof Map<unknown, unknown> & keyof ReadonlyMap<unknown, unknown>
+  ? Omit<T, "set" | "clear" | "delete">
   : T extends Set<unknown>
-  ? keyof Set<unknown> & keyof ReadonlySet<unknown>
+  ? Omit<T, "add" | "clear" | "delete">
   : Readonly<T>;
 
 declare module "react" {

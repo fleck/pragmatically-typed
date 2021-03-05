@@ -16,10 +16,16 @@ export default function TestComponent() {
   // @ts-expect-error map should now allow set
   readonlyMap.set("hello", "there");
 
+  // Ensure iterable works
+  readonlyMap.entries();
+
   const [readonlySet] = React.useState(new Set(["unique"]));
 
   // @ts-expect-error no mutation
   readonlySet.add("new");
+
+  // Ensure iterable works
+  readonlySet.entries();
 
   return <div />;
 }
