@@ -1,15 +1,13 @@
-let response = await fetch("api");
+const response = await fetch("api");
 
-let j = await response.json();
+const json = await response.json();
 
 // @ts-expect-error don't allow property access.
-j.couldBeAnything
+json.couldBeAnything;
 
-response = await fetch("api");
+const valid = await response.json<{ "developerShouldProvideType": string }>();
 
-const r = await response.json<{ "developerShouldProvideType": string }>();
-
-console.log(r.developerShouldProvideType);
+console.log(valid.developerShouldProvideType);
 
 // @ts-expect-error should not allow bogus type.
 const invalid: {invalidType: () => void} = await response.json();
