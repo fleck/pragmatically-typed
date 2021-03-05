@@ -9,7 +9,8 @@
       "directory": "packages/all"
   },
   "dependencies": {
-    "@pragmatically-typed/react": "1.0.2"
+    "@pragmatically-typed/react": "1.0.2",
+    "@pragmatically-typed/body.json": "1.0.0"
   },
   "typeScriptVersion": "3.9"
 }
