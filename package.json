@@ -5,13 +5,11 @@
   "author": "Jonathan Fleckenstein",
   "license": "MIT",
   "scripts": {
-    "test-all": "node node_modules/@definitelytyped/dtslint-runner/dist/index.js --path packages",
     "test": "dtslint packages",
     "prettier": "prettier"
   },
   "devDependencies": {
     "@definitelytyped/definitions-parser": "latest",
-    "@definitelytyped/dtslint-runner": "latest",
     "@definitelytyped/utils": "latest",
     "danger": "^10.1.1",
     "dtslint": "latest",
