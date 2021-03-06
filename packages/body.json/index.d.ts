@@ -10,7 +10,7 @@ type Json =
 
 declare global {
   interface Body {
-    json<T extends Json | unknown>(): Promise<T extends Json ? T : unknown>;
+    json<T extends Json>(): Promise<T extends Json ? T : unknown>;
   }
 }
 
