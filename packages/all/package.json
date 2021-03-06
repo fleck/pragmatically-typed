@@ -1,6 +1,6 @@
 {
   "name": "@pragmatically-typed/all",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "includes all pragmatically typed packages",
   "license": "MIT",
   "repository": {
@@ -11,7 +11,8 @@
   "dependencies": {
     "@pragmatically-typed/array.includes": "1.0.0",
     "@pragmatically-typed/body.json": "1.0.0",
-    "@pragmatically-typed/react": "1.0.2"
+    "@pragmatically-typed/react": "1.0.2",
+    "@pragmatically-typed/strict": "1.0.0"
   },
   "typeScriptVersion": "3.9"
 }
