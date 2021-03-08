@@ -1,6 +1,6 @@
 {
   "name": "@pragmatically-typed/react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "return readonly from useState",
   "license": "MIT",
   "types": "index.d.ts",
@@ -15,5 +15,8 @@
   },
   "bugs": {
     "url": "https://github.com/fleck/pragmatically-typed/issues"
-  }
+  },
+  "files": [
+    "index.d.ts"
+  ]
 }
