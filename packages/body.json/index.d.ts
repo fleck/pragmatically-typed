@@ -10,7 +10,13 @@ type Json =
 
 declare global {
   interface Body {
-    json<T extends Json>(): Promise<T extends Json ? T : unknown>;
+    json<T extends Json>(): Promise<T>;
+  }
+}
+
+declare module "node-fetch" {
+  interface Body {
+    json<T extends Json>(): Promise<T>;
   }
 }
 

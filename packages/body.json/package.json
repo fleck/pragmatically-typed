@@ -1,16 +1,19 @@
 {
   "name": "@pragmatically-typed/body.json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "safer body.json",
   "license": "MIT",
   "types": "index.d.ts",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/fleck/pragmatically-typed.git",
-      "directory": "packages/body.json"
+    "type": "git",
+    "url": "https://github.com/fleck/pragmatically-typed.git",
+    "directory": "packages/body.json"
   },
   "typeScriptVersion": "3.9",
   "files": [
     "index.d.ts"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.8"
+  }
 }

@@ -11,7 +11,8 @@
     "noEmit": true,
     "forceConsistentCasingInFileNames": true,
     "target": "ES2017",
-    "lib": ["es6", "dom"]
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node"
   },
   "files": ["index.d.ts", "tests.ts"]
 }
