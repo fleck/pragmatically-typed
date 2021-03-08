@@ -1,6 +1,6 @@
 {
   "name": "@pragmatically-typed/body.json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "safer body.json",
   "license": "MIT",
   "types": "index.d.ts",
@@ -9,5 +9,8 @@
       "url": "https://github.com/fleck/pragmatically-typed.git",
       "directory": "packages/body.json"
   },
-  "typeScriptVersion": "3.9"
+  "typeScriptVersion": "3.9",
+  "files": [
+    "index.d.ts"
+  ]
 }
