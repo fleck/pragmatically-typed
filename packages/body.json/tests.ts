@@ -7,9 +7,14 @@ const json = await response.json();
 // @ts-expect-error don't allow property access.
 json.couldBeAnything;
 
-const valid = await response.json<{ "developerShouldProvideType": string }>();
+export type SomeObject = {
+  win?: boolean;
+  score: number;
+};
 
-console.log(valid.developerShouldProvideType);
+const valid = await response.json<SomeObject>();
+
+console.log(valid.score);
 
 // @ts-expect-error should not allow bogus type.
 const invalid: {invalidType: () => void} = await response.json();

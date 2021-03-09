@@ -6,7 +6,9 @@ type Json =
   | boolean
   | null
   | { [property: string]: Json }
-  | Json[];
+  | Json[]
+  // undefined is needed for TypeScript < 4.2
+  | undefined;
 
 declare global {
   interface Body {
