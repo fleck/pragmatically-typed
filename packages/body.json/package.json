@@ -1,6 +1,6 @@
 {
   "name": "@pragmatically-typed/body.json",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "safer body.json",
   "license": "MIT",
   "types": "index.d.ts",
@@ -13,7 +13,7 @@
   "files": [
     "index.d.ts"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@types/node-fetch": "^2.5.8"
   }
 }
