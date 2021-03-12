@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@pragmatically-typed/array.includes": "1.0.1",
-    "@pragmatically-typed/body.json": "1.0.6",
+    "@pragmatically-typed/body.json": "1.0.7",
     "@pragmatically-typed/react": "1.0.3",
     "@pragmatically-typed/strict": "1.0.1"
   },
