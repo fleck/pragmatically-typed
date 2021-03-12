@@ -1,6 +1,6 @@
 // Minimum TypeScript Version: 3.9
 
-type Json =
+export type Json =
   | string
   | number
   | boolean
