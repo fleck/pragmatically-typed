@@ -7,6 +7,7 @@ export type Json =
   | null
   | { [property: string]: Json }
   | Json[]
+  | ReadonlyArray<Json>
   // undefined is needed for TypeScript < 4.2
   | undefined;
 

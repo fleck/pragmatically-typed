@@ -17,7 +17,7 @@ const valid = await response.json<SomeObject>();
 console.log(valid.score);
 
 // @ts-expect-error should not allow bogus type.
-const invalid: {invalidType: () => void} = await response.json();
+const invalid: { invalidType: () => void } = await response.json();
 
 const responseNode = await nodeFetch("api");
 
@@ -26,9 +26,23 @@ const jsonNode = await responseNode.json();
 // @ts-expect-error don't allow property access.
 jsonNode.couldBeAnything;
 
-const validNode = await responseNode.json<{ "developerShouldProvideType": string }>();
+const validNode = await responseNode.json<{
+  developerShouldProvideType: string;
+}>();
 
 console.log(validNode.developerShouldProvideType);
 
 // @ts-expect-error should not allow bogus type.
-const invalidNode: {invalidType: () => void} = await responseNode.json();
+const invalidNode: { invalidType: () => void } = await responseNode.json();
+
+type OtherRo = {
+  readonly s: Readonly<boolean[]>;
+};
+
+type ShouldAllowReadonly = {
+  readonly developerShouldProvideType: string[];
+  readonly other: boolean;
+  readonly f: Readonly<OtherRo>;
+};
+
+await responseNode.json<Readonly<ShouldAllowReadonly>>();
