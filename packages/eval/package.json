@@ -1,0 +1,16 @@
+{
+  "name": "@pragmatically-typed/eval",
+  "version": "1.0.0",
+  "description": "change eval to return unknown",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fleck/pragmatically-typed.git",
+    "directory": "packages/eval"
+  },
+  "typeScriptVersion": "3.9",
+  "files": [
+    "index.d.ts"
+  ]
+}
