@@ -12,7 +12,7 @@
     "@pragmatically-typed/array.includes": "1.0.1",
     "@pragmatically-typed/body.json": "1.0.9",
     "@pragmatically-typed/react": "1.0.3",
-    "@pragmatically-typed/strict": "1.0.1",
+    "@pragmatically-typed/strict": "1.0.2",
     "@pragmatically-typed/eval": "1.0.0"
   },
   "typeScriptVersion": "3.9"
