@@ -1,0 +1,16 @@
+{
+  "name": "@pragmatically-typed/json.parse",
+  "version": "1.0.0",
+  "description": "make JSON.parse return unknown",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fleck/pragmatically-typed.git",
+    "directory": "packages/json.parse"
+  },
+  "typeScriptVersion": "3.9",
+  "files": [
+    "index.d.ts"
+  ]
+}
