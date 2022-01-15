@@ -1,12 +1,12 @@
 {
   "name": "@pragmatically-typed/strict",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "strict TS config options with pragmatically-typed",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/fleck/pragmatically-typed.git",
-      "directory": "packages/strict"
+    "type": "git",
+    "url": "https://github.com/fleck/pragmatically-typed.git",
+    "directory": "packages/strict"
   },
   "typeScriptVersion": "3.9"
 }
